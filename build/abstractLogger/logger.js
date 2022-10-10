@@ -1,7 +1,7 @@
 "use strict";
 class Logger {
     printDate(date = new Date()) {
-        this.log(date.toString());
+        this.log(date.toDateString());
     }
 }
 class RealLogger extends Logger {
